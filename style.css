@@ -1,6 +1,6 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.google.com/specimen/Montserrat");
 
 * {
   margin: 0;
@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eddcd9;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: #264143;;
 }
 
 /* TRANSITION */
@@ -37,7 +38,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
-  background-color: rgb(111, 221, 96);
+  background-color: #f2ebe9;
 }
 
 .nav-links {
@@ -47,20 +48,20 @@ nav {
 }
 
 a {
-  color: rgb(109, 96, 96);
+  color: #264143;
   text-decoration: none;
-  text-decoration-color: rgb(15, 15, 15);
+  text-decoration-color: #264143;;
 }
 
 a:hover {
-  color: rgb(226, 153, 233);
+  color: #e99f4c;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color:#264143;
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 3.5rem;
 }
 
 .logo:hover {
@@ -98,7 +99,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: rgb(0, 0, 0);
+  background-color: #eddcd9;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -110,7 +111,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: #264143;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -169,6 +170,7 @@ section {
   gap: 5rem;
   height: 80vh;
   border-style: dashed;
+  border-color: #de5499;
 }
 
 .section__pic-container {
@@ -177,6 +179,7 @@ section {
   width: 400px;
   margin:  0;
   border-style: double;
+  border-color: blanchedalmond;
   border-end-end-radius: 0;
 }
 
@@ -201,6 +204,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+
 }
 
 #socials-container {
@@ -300,9 +304,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  color:  #f2ebe9;
+  background: #DE5499;
+  border-radius: 5rem;
+  border: #f2ebe9 1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
@@ -325,7 +330,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: #f2ebe9;
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -342,13 +347,13 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 2rem;
   justify-content: space-around;
 }
 
 article {
   display: flex;
-  width: 10rem;
+  width: 7rem;
   justify-content: space-around;
   gap: 0.5rem;
 }
